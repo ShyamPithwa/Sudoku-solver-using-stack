@@ -59,7 +59,7 @@ sudoku_solver
 
 - **`Clone the repository`**:
 
-  - git clone https://github.com/ahmedelazab1220/Java_Sudoku_Solver.git
+  - git clone https://github.com/ShyamPithwa/Sudoku-solver-using-stack.git
   - you can also download Zip file and extract.
 
 - **`Running the Project`**
@@ -80,7 +80,7 @@ sudoku_solver
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the <a href = "https://github.com/ahmedelazab1220/Java_Sudoku_Solver/blob/main/LICENSE"> LICENSE </a> file for details.
+This project is licensed under the Apache License 2.0 - see the <a href = "https://github.com/ShyamPithwa/Sudoku-solver-using-stack/blob/main/LICENSE"> LICENSE </a> file for details.
 
 ## Conclusion
 
