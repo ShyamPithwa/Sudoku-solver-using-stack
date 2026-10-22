@@ -55,22 +55,34 @@ sudoku_solver
 
 ```
 
-## Installation
+## Installation & Running
 
-- **`Clone the repository`**:
+### Prerequisites
+- **Java Development Kit (JDK 8 or higher)** installed. Verify with `javac -version` and `java -version`.
 
-  - git clone https://github.com/ShyamPithwa/Sudoku-solver-using-stack.git
-  - you can also download Zip file and extract.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ShyamPithwa/Sudoku-solver-using-stack.git
+cd Sudoku-solver-using-stack
+```
 
-- **`Running the Project`**
+### 2. Compile and Run
 
-  - `Compile the project:`
-    - javac Main.java
-  - `Run the Main class to start the application:`
-    - java Main.java
+**Option 1: From the project root directory (Recommended)**
+```bash
+# Compile all files into the bin folder
+javac -d bin src/Main.java src/sudoku/*.java src/view/*.java
 
-- **`Note`**
-  - you must go to path in your pc to run this commands correctly.
+# Run the application
+java -cp bin Main
+```
+
+**Option 2: From the `src` directory**
+```bash
+cd src
+javac Main.java
+java Main
+```
 
 ## Sudoku Solver GUI Preview
 
